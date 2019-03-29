@@ -8,7 +8,7 @@ Based on https://openreview.net/forum?id=H1T2hmZAb
 """
 
 import torch
-from torch.nn import Module, Parameter, init, Sequential
+from torch.nn import Module, Parameter, init, Sequential,functional as F
 from torch.nn import Conv2d, Linear, BatchNorm1d, BatchNorm2d
 from complexFunctions import complex_relu, complex_max_pool
 
